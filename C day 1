@@ -1,0 +1,75 @@
+#include<stdio.h>
+int main(){
+    int a = 90;
+    int b = 94;
+    int c = 96;
+    int d = 92;
+    int e = 93;
+    int average = (a+b+c+d+e)/5;
+    printf("The average of five subjects is: %d", average);
+
+}
+#include <stdio.h>
+int main (){ 
+    float PI = 3.14;
+    float R;
+    printf("Enter the radius:");
+    scanf("%f",&R);
+    float A = PI * R * R;
+    printf("The area of the circle is: %f",A);
+    return 0;
+}
+#include <stdio.h>
+int main(){
+    float Interest;
+    printf("Enter Rate of interest: ");
+    scanf("%f",&Interest);
+    float Ammount;
+    printf("Enter the principal ammount: ");
+    scanf("%f",&Ammount);
+    float time;
+    printf("Enter time in years: ");
+    scanf("%f",&time);
+    float SI = Ammount*Interest*time / 100;
+    printf("Simple interest is: %.2f", SI);
+    return 0;
+
+}
+#include<stdio.h>
+int main(){
+    float r = 4;
+    float area = 3.14*r*r;
+    printf("Area of circle is: %f", area);
+    return 0;
+}
+#include <stdio.h>
+int main(){
+    int p,q;
+    printf("Enter the values of p and q:");
+    scanf("%d %d", p, q);
+    printf("p = %d q = %d", p, q);
+    return 0;
+}
+#include<stdio.h>
+int main(){
+    int num1;
+    printf("Enter a smaller number:");
+    scanf("%d",&num1);
+
+    int num2;
+    printf("Enter a bigger number:");
+    scanf("%d",&num2);
+
+    int q = num2 / num1;
+    int r = num2 - (q*num1);
+    printf("The remainder when %d is divided by %d is : %d",num2, num1, r);
+    return 0;
+
+}
+#include <stdio.h>
+int main (){
+    int a = 46;
+    int b = 3;
+    int c = a % b;
+    printf("%d",c);
+}
